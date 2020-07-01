@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{ time }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <img src="static/images/dbzroster.png">
+        <div class="container-fluid">
+        <h1>You are now at the character page, {{person}}</h1>        
+
+            <h1>You are now {{props.cname}}</h1>        
+        
+            <p>{{props.description}}</p>  
+
+            <img id ="charapic" src="{{props.source}}"/>      
+
+
+        </div>
+        <a href="/index"> Play again </a>
+    </body>
+</html>

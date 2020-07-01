@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{ time }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <img src="static/images/dbzroster.png">
+        <div class="container-fluid">
+        <h1>What kind of DragonBall Z character are you?</h1>
+        
+        <h3></h3>
+        <form method="post" action="/character">
+            <input type="text" name="nickname" placeholder="Enter your nickname"/></br>
+          
+          <h3>What would you do if you had extra hour in your day?</h3>
+          <!-- my extra hour -->
+          <input type="radio" name="hour"  id="hour" value="hour"/>
+          <label for="hour">Work out</label></br>
+          <input type="radio" name="hour"  id="study" value="study"/>
+          <label for="study">Study</label></br>
+          <input type="radio" name="hour"  id="eat" value="eat"/>
+          <label for="eat">Eat and sleep</label>
+
+          <h3>Mode of transportation?</h3>
+          <!-- Transportation -->
+          <input type="radio" name="mode"  id="cloud" value="cloud"/>
+          <label for="cloud">A flying cloud</label></br>
+          <input type="radio" name="mode"  id="car" value="car"/>
+          <label for="car">A flying car</label></br>
+          <input type="radio" name="mode"  id="air" value="air"/>
+          <label for="air">Flying through the air</label>
+
+
+          <h3>Hero or Villian?</h3>
+          <!-- Transportation -->
+          <input type="radio" name="hv"  id="good" value="good"/>
+          <label for="goodr">Good</label></br>
+          <input type="radio" name="hv"  id="bad" value="bad"/>
+          <label for="bad">Bad</label></br>
+          <input type="radio" name="hv"  id="kindof" value="kindof"/>
+          <label for="kindof">Misunderstood</label>
+
+            <br><input type="submit" value="Submit"/></br>
+        </form>
+
+        </div>
+    </body>
+</html>

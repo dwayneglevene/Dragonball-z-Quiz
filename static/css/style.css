@@ -1,0 +1,17 @@
+#charapic{
+    width:200px !important; 
+    height:200px !important;
+}
+
+
+img{
+    width: 100%;
+    height:50%;
+}
+
+
+body{
+    background-color:lightblue !important;
+    /* height:100%; */
+    margin:0%;
+}
